@@ -1,0 +1,68 @@
+$lightGreen: #b9e7e7;
+
+
+.app{
+    display:flex;
+    justify-content: center;
+    .container{
+        width:1024px;
+        //LOGIN & REGISTER
+        
+        .auth{
+            display: flex;
+            flex-direction: column;
+            
+            align-items: center;
+            justify-content: center;
+            
+            
+            h1{
+                font-size: 40px;
+                margin-bottom: 30px;
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+                padding:10px;
+                width:200px;
+                gap:10px;
+            
+              input{
+                padding: 15px;
+                border:none;
+                border-bottom: 1px solid #b9e7e7;
+              }
+              button{
+                padding: 10px;
+                border:none;
+                border-radius: 5px;
+                cursor: pointer;
+              }
+              p{
+                font-size: 12px;
+                text-align: center;
+                color:red;
+              }
+              span{
+                font-size: 12px;
+                text-align: center;
+              }
+            } 
+        }
+ 
+    //NAVBAR
+    .navbar{
+        .container{
+            padding: 10px 0px;
+            display:flex;
+            justify-content: space-between;
+            .logo{}
+            .links{}
+        }
+    }
+      
+    }
+}
+
+
+ 
