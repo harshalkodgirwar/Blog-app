@@ -110,11 +110,146 @@ $lightGreen: #b9e7e7;
       align-items: center;
       justify-content: space-between;
       img{
-        height: 50px;
+        height: 40px;
       }
     }
+
+
+    //home
+    .home {
+      .posts {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 150px;
+
+        .post {
+          display: flex;
+          gap: 100px;
+
+          &:nth-child(2n + 1) {
+            flex-direction: row-reverse;
+          }
+
+          .img {
+            flex: 2;
+            position: relative;
+
+            &::after {
+              content: "";
+              width: 100%;
+              height: 100%;
+              background-color: $lightGreen;
+              position: absolute;
+              top: 20px;
+              left: -20px;
+              z-index: -1;
+            }
+
+            img {
+              width: 100%;
+              max-height: 400px;
+              object-fit: cover;
+            }
+          }
+
+          .content {
+            flex: 3;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            h1 {
+              font-size: 48px;
+            }
+
+            p {
+              font-size: 18px;
+            }
+
+            button {
+              width: max-content;
+              padding: 10px 20px;
+              border: none;
+              cursor: pointer;
+              background-color: white;
+              border: 1px solid teal;
+              color: teal;
+
+              &:hover {
+                border: 1px solid white;
+                background-color: $lightGreen;
+                color: black;
+              }
+            }
+          }
+        }
+      }
     }
+
+    //single
+    .single{
+      display:flex;
+      gap:50px;
+      
+
+
+      .content{
+        flex:5;
+        img{
+          width: 100%;
+          height: 300px;
+          object-fit: cover;
+
+        }
+        .user{
+          display: flex;
+          align-items: center;
+          gap: 6px;
+          font-size: 18px;
+          
+          img{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+          }
+          span{
+            font-weight: bold;
+          }
+          p{
+            margin: 0;
+          }
+          .edit{
+            display: flex;
+            gap: 5px;
+            img{
+              width: 20px;
+              height: 20px;
+              cursor: pointer;
+            }
+          }
+
+          
+        }
+        h1{
+          font-size: 42px;
+          color: black;
+        }
+        p{
+          text-align: justify;
+          line-height: 25px;
+          font-size:18px;
+        }
+      }
+
+      .menu{
+        flex: 2;
+      }
+    }
+
+
+
+
+  }
 }
-
-
- 
