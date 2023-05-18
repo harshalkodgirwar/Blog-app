@@ -2,6 +2,7 @@ import React from 'react'
 import Edit from '../images/edit.png'
 import Delete from '../images/Delete.png'
 import { Link } from 'react-router-dom'
+import Menu from '../components/Menu'
 
 
 const Single = () => {
