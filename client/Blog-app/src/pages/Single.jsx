@@ -28,7 +28,7 @@ const Single = () => {
           Impedit praesentium beatae amet repudiandae?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita ullam voluptatem voluptas incidunt rerum perferendis iusto! Culpa ea necessitatibus perspiciatis ab pariatur obcaecati totam ipsa error. Accusantium odit eius accusamus aliquam necessitatibus soluta impedit animi, iste reiciendis consectetur totam! Delectus at aliquam beatae quas quo veritatis tenetur adipisci a nam similique quos fuga provident odit, nobis ea repudiandae repellat. Earum vel nesciunt, explicabo illo unde iusto voluptas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dignissimos asperiores, voluptatem dolorum ea libero eaque, culpa repudiandae ipsum nobis quae aliquid necessitatibus officia natus atque ab impedit neque optio totam perspiciatis repellat et. Possimus eos odit a! Maxime, porro. Culpa sint architecto nostrum sit sapiente nihil, in sunt aliquam incidunt! Voluptatibus quis incidunt temporibus aliquid.
         </p>
       </div>
-        <div className="menu">m</div>
+        <Menu />
       
     </div>
   )
